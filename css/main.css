@@ -380,25 +380,6 @@ p {
 }
 
 /* Logo */
-.logo {
-  margin-right: 93px;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--blue-logo-color);
-}
-
-.logo-black {
-  color: var(--black-logo-color);
-}
-
-.logo-white {
-  color: var(--white-logo-color);
-}
-
 /* site navigation */
 .nav {
   margin: 0;
@@ -491,6 +472,21 @@ p {
 .icon,
 .mail {
   display: block;
+}
+
+.logo {
+  margin-right: 93px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--blue-logo-color);
+}
+
+.logo-black {
+  color: var(--black-logo-color);
 }
 
 /* hero */
@@ -1464,4 +1460,19 @@ p {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--gray-color-60);
+}
+
+.logo {
+  margin-right: 93px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--blue-logo-color);
+}
+
+.logo-white {
+  color: var(--white-logo-color);
 }/*# sourceMappingURL=main.css.map */
