@@ -57,6 +57,7 @@ p {
 .list {
   list-style: none;
 }
+
 /* container */
 .container {
   width: 1200px;
@@ -150,7 +151,7 @@ p {
   display: flex;
 }
 
-.nav-list .item + .item {
+.nav-list .item+.item {
   margin-left: 50px;
 }
 
@@ -212,7 +213,8 @@ p {
   align-items: center;
   color: var(--primary-text-color);
 }
-.site-contacts .item + .item {
+
+.site-contacts .item+.item {
   margin-left: 50px;
 }
 
@@ -232,10 +234,8 @@ p {
 
   text-align: center;
   background-color: var(--hero-backgroun-color);
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
     url("../images/hero.jpeg");
 }
 
@@ -374,6 +374,7 @@ p {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team-img {
   display: block;
   max-width: 100%;
@@ -502,9 +503,10 @@ p {
   margin-bottom: 50px;
 }
 
-.filter-list .item + .item {
+.filter-list .item+.item {
   margin-left: 8px;
 }
+
 .filter-list .button {
   background-color: var(--secondary-background-color);
   padding: 6px 22px;
@@ -583,6 +585,7 @@ p {
   max-width: 100%;
   height: auto;
 }
+
 .product-thumb {
   position: relative;
   overflow: hidden;
@@ -683,6 +686,7 @@ p {
 .footer .adress-link {
   color: var(--white-color);
 }
+
 .footer .contact-link {
   color: var(--gray-color-60);
 }
@@ -858,6 +862,7 @@ p {
   transition-property: border-color;
   transition: border-color var(--transition-duration) var(--timing-function);
 }
+
 .field .icon {
   position: absolute;
   display: block;
@@ -872,7 +877,7 @@ p {
 .input-box:hover .input,
 .input-box:hover .icon,
 .input:focus,
-.input:focus ~ .icon {
+.input:focus~.icon {
   border-color: var(--accent-color);
   fill: var(--accent-color);
   cursor: pointer;
@@ -939,7 +944,7 @@ p {
   border: 2px solid var(--accent-color);
 }
 
-.checkbox:checked + .icon {
+.checkbox:checked+.icon {
   border-color: transparent;
   background-image: url(../images/icons/check-box.svg);
   background-color: var(--accent-color);
