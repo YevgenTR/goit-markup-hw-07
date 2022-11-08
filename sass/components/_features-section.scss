@@ -1,13 +1,12 @@
-.feature-list {
+.feature {
+  &__list {
     display: flex;
     justify-content: space-between;
-}
-
-.feature-item {
+  }
+  &__item {
     width: 270px;
-}
-
-.icon-block {
+  }
+  &__icon-block {
     display: flex;
     margin-bottom: 30px;
     height: 120px;
@@ -15,31 +14,25 @@
     align-items: center;
 
     background-color: var(--secondary-background-color);
-}
-
-.icon {
+  }
+  &__icon {
     display: block;
-}
-
-.mail-icon {
-    fill: currentColor;
-    margin-right: 10px;
-}
-
-.feature-list .title {
+  }
+  &__sub-title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-align: center;
     text-transform: uppercase;
 
     color: var(--secondary-text-color);
-}
-
-.feature-list .text {
+  }
+  &__text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+  }
 }

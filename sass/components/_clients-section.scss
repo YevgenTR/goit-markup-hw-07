@@ -1,13 +1,12 @@
-.clients .list {
+.clients {
+  &__list {
     display: flex;
     justify-content: space-between;
-}
-
-.clients .item {
+  }
+  &__item {
     display: flex;
-}
-
-.clients .link {
+  }
+  &__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,15 +20,14 @@
     transition-property: border-color, fill;
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
-}
-
-.clients .link:hover,
-.clients .link:focus {
-    border-color: var(--accent-color);
-    fill: var(--accent-color);
-}
-
-.clients .icon {
+    &:hover,
+    :focus {
+      border-color: var(--accent-color);
+      fill: var(--accent-color);
+    }
+  }
+  &__icon {
     display: block;
     color: currentColor;
+  }
 }
