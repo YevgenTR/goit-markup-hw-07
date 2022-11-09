@@ -389,9 +389,11 @@ ul {
   gap: 50px;
   position: relative;
 }
+
 .nav-list__item {
   position: relative;
 }
+
 .nav-list__link {
   display: block;
   padding: 32px 0;
@@ -410,10 +412,10 @@ ul {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-.nav-list__link:hover,
-.nav-list__link :focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: var(--accent-color);
 }
+
 .nav-list__link--current {
   color: var(--accent-color);
 }
@@ -439,6 +441,7 @@ ul {
   gap: 50px;
   list-style: none;
 }
+
 .site-contacts__link {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -460,14 +463,15 @@ ul {
           transition-timing-function: var(--timing-function);
   color: var(--primary-text-color);
 }
-.site-contacts__link:hover,
-.site-contacts__link :focus {
+.site-contacts__link:hover, .site-contacts__link:focus {
   color: var(--accent-color);
 }
+
 .site-contacts__item {
   gap: 50px;
   text-decoration: none;
 }
+
 .site-contacts__icon {
   display: block;
   fill: currentColor;
@@ -487,9 +491,11 @@ ul {
   text-decoration: none;
   color: var(--blue-logo-color);
 }
-.logo__header--black {
+
+.logo-header--black {
   color: var(--black-logo-color);
 }
+
 .logo-footer--white {
   color: var(--white-logo-color);
 }
@@ -505,6 +511,7 @@ ul {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero.jpeg");
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpeg");
 }
+
 .hero__title {
   margin: 0 auto 30px auto;
   width: 696px;
@@ -515,6 +522,7 @@ ul {
   text-transform: uppercase;
   color: var(--white-color);
 }
+
 .hero__button {
   padding: 10px 32px;
   min-width: 216px;
@@ -535,8 +543,7 @@ ul {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-.hero__button:hover,
-.hero__button :focus {
+.hero__button:hover, .hero__button:focus {
   background-color: var(--main-background-color);
   color: var(--accent-color);
 }
@@ -838,9 +845,11 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .feature__item {
   width: 270px;
 }
+
 .feature__icon-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -855,9 +864,11 @@ ul {
           align-items: center;
   background-color: var(--secondary-background-color);
 }
+
 .feature__icon {
   display: block;
 }
+
 .feature__sub-title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -868,6 +879,7 @@ ul {
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
+
 .feature__text {
   font-weight: 400;
   font-size: 14px;
@@ -878,6 +890,7 @@ ul {
 .activity {
   padding-top: 0px;
 }
+
 .activity__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -886,14 +899,17 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .activity__item {
   position: relative;
 }
+
 .activity__img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 .activity__description {
   position: absolute;
   display: block;
@@ -913,6 +929,7 @@ ul {
 .team {
   background-color: var(--secondary-background-color);
 }
+
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -921,6 +938,7 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .team__card {
   width: 270px;
   background-color: var(--main-background-color);
@@ -928,6 +946,7 @@ ul {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team__img {
   max-width: 100%;
   height: auto;
@@ -938,6 +957,7 @@ ul {
   padding-bottom: 30px;
   text-align: center;
 }
+
 .team-thumb__subtitle {
   margin-bottom: 10px;
   font-weight: 500;
@@ -946,6 +966,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
 .team-thumb__position {
   margin-bottom: 16px;
   font-weight: 400;
@@ -953,6 +974,7 @@ ul {
   line-height: 1.187;
   letter-spacing: 0.03em;
 }
+
 .team-thumb__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -962,6 +984,7 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .team-thumb__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -984,11 +1007,11 @@ ul {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-.team-thumb__link:hover,
-.team-thumb__link :focus {
+.team-thumb__link:hover, .team-thumb__link:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
+
 .team-thumb__icon {
   fill: currentColor;
 }
@@ -1001,11 +1024,13 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .clients__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1028,14 +1053,9 @@ ul {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-.clients__link:hover,
-.clients__link :focus {
+.clients__link:hover, .clients__link:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
-}
-.clients__icon {
-  display: block;
-  color: currentColor;
 }
 
 .footer {
@@ -1063,6 +1083,7 @@ ul {
 .footer-adress__item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .footer-adress__link {
   display: block;
   font-style: normal;
@@ -1084,8 +1105,7 @@ ul {
 .footer-adress__link--gray {
   color: var(--gray-color-60);
 }
-.footer-adress__link:hover,
-.footer-adress__link :focus {
+.footer-adress__link:hover, .footer-adress__link:focus {
   color: var(--accent-color);
 }
 
@@ -1106,6 +1126,7 @@ ul {
 .footer-social__item:not(:last-child) {
   margin-right: 10px;
 }
+
 .footer-social__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1232,14 +1253,8 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.filter-list {
   margin-bottom: 50px;
-}
-
-.filter-list .item + .item {
-  margin-left: 8px;
+  gap: 8px;
 }
 
 .filter-list .button {

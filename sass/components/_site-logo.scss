@@ -10,15 +10,16 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--blue-logo-color);
-  &__header {
-    &--black {
-      color: var(--black-logo-color);
-    }
-  }
+}
 
-  &-footer {
-    &--white {
-      color: var(--white-logo-color);
-    }
+.logo-header {
+  &--black {
+    color: var(--black-logo-color);
+  }
+}
+
+.logo-footer {
+  &--white {
+    color: var(--white-logo-color);
   }
 }
