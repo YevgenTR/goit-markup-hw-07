@@ -65,64 +65,72 @@
       <section class="portfolio section">
         <div class="container">
           <h2 class="section-title visually-hidden">Список кнопок-фільтрів</h2>
-          <ul class="filter-list">
+          <ul class="potrfolio filter-list">
             <li class="item">
-              <button class="button current" type="button">Усі</button>
+              <button
+                class="filter-list__button filter-list__button--current"
+                type="button"
+              >
+                Усі
+              </button>
             </li>
             <li class="item">
-              <button class="button" type="button">Веб-сайти</button>
+              <button class="filter-list__button" type="button">
+                Веб-сайти
+              </button>
             </li>
             <li class="item">
-              <button class="button" type="button">Додатки</button>
+              <button class="filter-list__button" type="button">Додатки</button>
             </li>
             <li class="item">
-              <button class="button" type="button">Дизайн</button>
+              <button class="filter-list__button" type="button">Дизайн</button>
             </li>
             <li class="item">
-              <button class="button" type="button">Маркетинг</button>
+              <button class="filter-list__button" type="button">
+                Маркетинг
+              </button>
             </li>
           </ul>
 
           <h2 class="section-title visually-hidden">Наше портфоліо</h2>
-          <ul class="list">
-            <li class="card">
-              <a class="link" href="">
-                <div>
-                  <div class="product-thumb">
-                    <img
-                      class="img"
-                      src="./images/tehnokrjak.jpeg"
-                      alt="зображення ноутбука"
-                      width="370"
-                    />
-                    <div class="product-overlay">
-                      <p class="comment">
-                        Ресурс пропонує комплексні пропозиції з різним рівнем
-                        функціоналу та сервісів. Все це дозволить відвідувачу
-                        отримати вичерпні відомості про компанію чи приватну
-                        особу.
-                      </p>
-                    </div>
+          <ul class="portfolio__list">
+            <li class="portfolio__card">
+              <a class="portfolio__link" href="">
+                <div class="image-block">
+                  <img
+                    class="image-block__img"
+                    src="./images/tehnokrjak.jpeg"
+                    alt="зображення ноутбука"
+                    width="370"
+                  />
+                  <div class="image-block__overlay">
+                    <p class="image-block__overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем
+                      функціоналу та сервісів. Все це дозволить відвідувачу
+                      отримати вичерпні відомості про компанію чи приватну
+                      особу.
+                    </p>
                   </div>
+                </div>
 
-                  <div class="box">
-                    <h3 class="name">Технокряк</h3>
-                    <p class="text">Веб-сайт</p>
-                  </div>
+                <div class="product-thumb">
+                  <h3 class="product-thumb__title">Технокряк</h3>
+                  <p class="product-thumb__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <div class="product-thumb">
+
+            <li class="portfolio__card">
+              <a class="portfolio__link" href="#">
+                <div class="image-block">
                   <img
-                    class="img"
+                    class="image-block__img"
                     src="./images/neworlean.jpeg"
                     alt="зображення двох баскетболістів що змагаются"
                     width="370"
                   />
-                  <div class="product-overlay">
-                    <p class="comment">
+                  <div class="image-block__overlay">
+                    <p class="image-block__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -131,25 +139,26 @@
                   </div>
                 </div>
 
-                <div class="box">
-                  <h3 class="name">
+                <div class="product-thumb">
+                  <h3 class="product-thumb__title">
                     Постер <span lang="en">New Orlean vs Golden Star</span>
                   </h3>
-                  <p class="text">Дизайн</p>
+                  <p class="product-thumb__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <div class="product-thumb">
+
+            <li class="portfolio__card">
+              <a class="portfolio__link" href="#">
+                <div class="image-block">
                   <img
-                    class="img"
+                    class="image-block__img"
                     src="./images/seafood.jpeg"
                     alt="зображення логотипу ресторану у вигляді лосося"
                     width="370"
                   />
-                  <div class="product-overlay">
-                    <p class="comment">
+                  <div class="image-block__overlay">
+                    <p class="image-block__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -158,23 +167,25 @@
                   </div>
                 </div>
 
-                <div class="box">
-                  <h3 class="name">Ресторан <span lang="en"></span></h3>
-                  <p class="text">Додаток</p>
+                <div class="product-thumb">
+                  <h3 class="product-thumb__title">
+                    Ресторан <span lang="en"></span>
+                  </h3>
+                  <p class="product-thumb__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <div class="product-thumb">
+            <li class="portfolio__card">
+              <a class="portfolio__link" href="#">
+                <div class="image-block">
                   <img
-                    class="img"
+                    class="image-block__img"
                     src="./images/prime.jpeg"
                     alt="зображення навушників"
                     width="370"
                   />
-                  <div class="product-overlay">
-                    <p class="comment">
+                  <div class="image-block__overlay">
+                    <p class="image-block__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -183,23 +194,25 @@
                   </div>
                 </div>
 
-                <div class="box">
-                  <h3 class="name">Проєкт <span lang="en">Prime</span></h3>
-                  <p class="text">Маркетинг</p>
+                <div class="product-thumb">
+                  <h3 class="product-thumb__title">
+                    Проєкт <span lang="en">Prime</span>
+                  </h3>
+                  <p class="product-thumb__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <div class="product-thumb">
+            <li class="portfolio__card">
+              <a class="portfolio__link" href="#">
+                <div class="image-block">
                   <img
-                    class="img"
+                    class="image-block__img"
                     src="./images/boxex.jpeg"
                     alt="зображення двох коробок"
                     width="370"
                   />
-                  <div class="product-overlay">
-                    <p class="comment">
+                  <div class="image-block__overlay">
+                    <p class="image-block__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -208,23 +221,25 @@
                   </div>
                 </div>
 
-                <div class="box">
-                  <h3 class="name">Проєкт <span lang="en">Boxes</span></h3>
-                  <p class="text">Додаток</p>
+                <div class="product-thumb">
+                  <h3 class="product-thumb__title">
+                    Проєкт <span lang="en">Boxes</span>
+                  </h3>
+                  <p class="product-thumb__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <div class="product-thumb">
+            <li class="portfolio__card">
+              <a class="portfolio__link" href="#">
+                <div class="image-block">
                   <img
-                    class="img"
+                    class="image-block__img"
                     src="./images/inspiration.jpeg"
                     alt="зображення моноблока"
                     width="370"
                   />
-                  <div class="product-overlay">
-                    <p class="comment">
+                  <div class="image-block__overlay">
+                    <p class="image-block__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -233,24 +248,26 @@
                   </div>
                 </div>
 
-                <div class="box">
-                  <h3 class="name">Inspiration has no Borders</h3>
-                  <p class="text">Веб-сайт</p>
+                <div class="product-thumb">
+                  <h3 class="product-thumb__title">
+                    Inspiration has no Borders
+                  </h3>
+                  <p class="product-thumb__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="card">
-              <a class="link" href="#">
-                <div class="product-thumb">
+            <li class="portfolio__card">
+              <a class="portfolio__link" href="#">
+                <div class="image-block">
                   <img
-                    class="img"
+                    class="image-block__img"
                     src="./images/limitededitiob.jpeg"
                     alt="зображення глянцевого журналу"
                     width="370"
                   />
-                  <div class="product-overlay">
-                    <p class="comment">
+                  <div class="image-block__overlay">
+                    <p class="image-block__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -259,25 +276,25 @@
                   </div>
                 </div>
 
-                <div class="box">
-                  <h3 class="name">
+                <div class="product-thumb">
+                  <h3 class="product-thumb__title">
                     Видання <span lang="en">Limited Edition</span>
                   </h3>
-                  <p class="text">Дизайн</p>
+                  <p class="product-thumb__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <div class="product-thumb">
+            <li class="portfolio__card">
+              <a class="portfolio__link" href="#">
+                <div class="image-block">
                   <img
-                    class="img"
+                    class="image-block__img"
                     src="./images/lab.jpeg"
                     alt="зображення ярлику з написом Lab El Tag"
                     width="370"
                   />
-                  <div class="product-overlay">
-                    <p class="comment">
+                  <div class="image-block__overlay">
+                    <p class="image-block__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -286,23 +303,25 @@
                   </div>
                 </div>
 
-                <div class="box">
-                  <h3 class="name">Проєкт <span lang="en">LAB</span></h3>
-                  <p class="text">Маркетинг</p>
+                <div class="product-thumb">
+                  <h3 class="product-thumb__title">
+                    Проєкт <span lang="en">LAB</span>
+                  </h3>
+                  <p class="product-thumb__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <div class="product-thumb">
+            <li class="portfolio__card">
+              <a class="portfolio__link" href="#">
+                <div class="image-block">
                   <img
-                    class="img"
+                    class="image-block__img"
                     src="./images/growingbusiness.jpeg"
                     alt="зображення людини що друкує на ноутбуці"
                     width="370"
                   />
-                  <div class="product-overlay">
-                    <p class="comment">
+                  <div class="image-block__overlay">
+                    <p class="image-block__overlay-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -311,9 +330,9 @@
                   </div>
                 </div>
 
-                <div class="box">
-                  <h3 class="name">Growing Business</h3>
-                  <p class="text">Додаток</p>
+                <div class="product-thumb">
+                  <h3 class="product-thumb__title">Growing Business</h3>
+                  <p class="product-thumb__text">Додаток</p>
                 </div>
               </a>
             </li>

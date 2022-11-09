@@ -2,8 +2,6 @@
 @import "./utils/visualyhidden";
 @import "./utils/modern-normalize";
 @import "./utils/base";
-@import "./components/backdrop";
-@import "./components/modal";
 
 @import "./components/sections";
 @import "./components/containers";
@@ -12,6 +10,8 @@
 @import "./components/site-logo";
 
 @import "./components/hero-section";
+@import "./components/backdrop";
+@import "./components/modal";
 
 @import "./components/features-section";
 
@@ -22,6 +22,6 @@
 @import "./components/clients-section";
 
 @import "./components/footer";
-@import "./components/logo-footer";
 
-@import "./components/portfolio";
+@import "./components/portfolio-filter-list";
+@import "./components/product-section";
