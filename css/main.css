@@ -430,7 +430,7 @@ ul {
   border-radius: 2px;
 }
 
-.site-contacts__list {
+.site-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -567,10 +567,6 @@ ul {
   visibility: hidden;
   pointer-events: none;
 }
-.backdrop.is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(0.8);
-          transform: translate(-50%, -50%) scale(0.8);
-}
 
 .modal {
   position: absolute;
@@ -601,6 +597,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
   background: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
